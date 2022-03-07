@@ -2,4 +2,18 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
- #header{ background: red !important; }
+
+ .row-full {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    margin-top: 0px;
+    left: 50%;
+}
+.extra-container {
+    width: 90vw;
+    position: relative;
+    margin-left: -45vw;
+    margin-top: 0px;
+    left: 50%;
+}

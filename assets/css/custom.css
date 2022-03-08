@@ -17,3 +17,15 @@
     margin-top: 0px;
     left: 50%;
 }
+
+#authentication #_desktop_user_info{
+    display: none;
+    }
+    
+#authentication #header .header-logo {width: 100%;text-align: center; max-width: 100%;}
+#authentication .breadcrumb-wrapper, #authentication #header .header-right {    display: none !important; }
+
+.product-name {
+    height: 4em;
+    overflow: hidden;
+}

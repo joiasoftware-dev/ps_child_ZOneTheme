@@ -9,23 +9,15 @@ author:
 assets:
   use_parent_assets: false
 
-dependencies:
-  modules:
-    - everblock
-    - crazyelements
-    - hooksmanager
-    - pscleaner
-    - orderreference
-
 modules:
+    to_disable:
+      - zonefeaturedcategories
+      - zonebrandlogo
+      - zonepopupnewsletter
+      - zoneproductadditional
     to_enable:
       - everblock
       - hooksmanager
       - pscleaner
       - orderreference
       
-    to_disable:
-      - zonefeaturedcategories
-      - zonebrandlogo
-      - zonepopupnewsletter
-      - zoneproductadditional

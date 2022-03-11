@@ -5,3 +5,9 @@ adattamento template grafico child
 + modules\zonemegamenu
 + layout -> sitemap
   no store page, no brandlist
+
++  dependencies modules:
+   - everblock
+   - crazyelements
+   - hooksmanager
+   - pscleaner

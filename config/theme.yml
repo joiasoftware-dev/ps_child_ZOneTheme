@@ -2,5 +2,28 @@ parent: ZOneTheme
 name: std_joia
 display_name: Joia Software Solutions std Child theme
 version: 1.0.0
+author:
+  name: "Joia Software Solutions s.r.l."
+  url: "https://prestashop.aonetemplate.com/zone/"
+
 assets:
   use_parent_assets: false
+
+dependencies:
+  modules:
+    - everblock
+    - crazyelements
+    - hooksmanager
+    - pscleaner
+
+modules:
+    to_enable:
+      - everblock
+      - hooksmanager
+      - pscleaner
+      
+    to_disable:
+      - zonefeaturedcategories
+      - zonebrandlogo
+      - zonepopupnewsletter
+      - zoneproductadditional

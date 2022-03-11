@@ -15,12 +15,14 @@ dependencies:
     - crazyelements
     - hooksmanager
     - pscleaner
+    - orderreference
 
 modules:
     to_enable:
       - everblock
       - hooksmanager
       - pscleaner
+      - orderreference
       
     to_disable:
       - zonefeaturedcategories

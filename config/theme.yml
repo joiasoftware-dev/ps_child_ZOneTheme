@@ -4,20 +4,8 @@ display_name: Joia Software Solutions std Child theme
 version: 1.0.0
 author:
   name: "Joia Software Solutions s.r.l."
-  url: "https://prestashop.aonetemplate.com/zone/"
+  url: "https://www.joiasoftware.it/"
 
 assets:
   use_parent_assets: false
-
-modules:
-    to_disable:
-      - zonefeaturedcategories
-      - zonebrandlogo
-      - zonepopupnewsletter
-      - zoneproductadditional
-    to_enable:
-      - everblock
-      - hooksmanager
-      - pscleaner
-      - orderreference
       
